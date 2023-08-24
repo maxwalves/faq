@@ -32,7 +32,26 @@
                 </section>
                 <section class="content">
                 <div class="row">
-                    
+                    @foreach($faqs as $faq)
+                        <div class="col-12" id="accordion">
+                            <div class="card card-primary card-outline">
+                                <a class="d-block w-100" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                                <div class="card-header">
+                                    <h4 class="card-title w-100">
+                                        1. {{$faq->pergunta}}
+                                    </h4>
+                                </div>
+                                </a>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    {{$faq->resposta}}
+                                </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    @endforeach
 
                     
                 </div>

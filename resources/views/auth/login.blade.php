@@ -2,7 +2,7 @@
     <x-authentication-card>
         <x-slot name="logo">
             <div class="flex justify-center">
-                <a href="/">
+                <a href="/faq">
                     <img src="{{ asset('/img/1sf.png') }}" alt="" style="width: 30%;display: block;margin: 0 auto;">
                 </a>
             </div>
