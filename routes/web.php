@@ -18,8 +18,8 @@ use App\Models\Faq;
 */
 
 Route::get('/', function () {
-    $faqs = Faq::all();
-    return view('welcome', ['faqs' => $faqs]);
+    //$faqs = Faq::all();
+    return view('welcome');
 });
 
 Route::middleware([
