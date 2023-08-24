@@ -10,13 +10,17 @@
    <body class="antialiased">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container-fluid d-flex justify-content-between">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('img/fundo.png') }}" alt="Logo" width="auto" height="100">
             </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="{{ route('login') }}" class="nav-link">Administração</a>
+                </li>
+            </ul>
         </div>
     </nav>
-    
 
         <div class="container" style="height: 100%;">
             
@@ -66,12 +70,6 @@
                 </section>
             </div>
 
-            <footer class="main-footer" style="">
-                <div class="float-right d-none d-sm-block">
-                    <a href="{{ route('login') }}" class="nav-link">Administração</a>
-                </div>
-               
-            </footer>
             
             <div id="sidebar-overlay"></div>
         </div>
