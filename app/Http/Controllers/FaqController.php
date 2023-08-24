@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class FaqController extends Controller
 {
+    public function welcome()
+    {
+        $faqs = FAQ::all();
+        return view('welcome', compact('faqs'));
+    }
 
     public function index()
     {

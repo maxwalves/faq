@@ -17,10 +17,7 @@ use App\Models\Faq;
 |
 */
 
-Route::get('/', function () {
-    $faqs = Faq::all();
-    return view('welcome', ['faqs' => $faqs]);
-});
+Route::get('/', [FaqController::class, 'welcome']);
 
 Route::middleware([
     'auth:sanctum',
