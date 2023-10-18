@@ -18,6 +18,7 @@ use App\Models\Faq;
 */
 
 Route::get('/', [FaqController::class, 'welcome']);
+Route::get('/sobre', [FaqController::class, 'sobre']);
 
 Route::middleware([
     'auth:sanctum',

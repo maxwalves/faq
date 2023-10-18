@@ -13,6 +13,12 @@ class FaqController extends Controller
         return view('welcome', compact('faqs'));
     }
 
+    public function sobre()
+    {
+        $faqs = FAQ::all();
+        return view('about', compact('faqs'));
+    }
+
     public function index()
     {
         $user = auth()->user();
