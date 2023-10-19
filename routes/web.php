@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ClientesController;
 use App\Http\Controllers\SistemaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
@@ -55,3 +56,12 @@ Route::middleware([
    Route::put('/faqs/{id}', [FaqController::class, 'update'])->middleware('auth');
    Route::put('/updateFaq/{id}', [FaqController::class, 'updateFaq'])->middleware('auth');
    Route::delete('/faqs/{id}', [FaqController::class, 'destroy'])->middleware('auth');
+
+   Route::get('/clientes', [ClientesController::class, 'index'])->middleware('auth');
+   Route::get('/clientes/create', [ClientesController::class, 'create'])->middleware('auth');
+   Route::post('/clientes', [ClientesController::class, 'store'])->middleware('auth');
+   Route::get('/clientes/{id}', [ClientesController::class, 'show'])->middleware('auth');
+   Route::get('/clientes/edit/{id}', [ClientesController::class, 'edit'])->middleware('auth');
+   Route::put('/clientes/{id}', [ClientesController::class, 'update'])->middleware('auth');
+   Route::put('/updateCliente/{id}', [ClientesController::class, 'updateCliente'])->middleware('auth');
+   Route::delete('/clientes/{id}', [ClientesController::class, 'destroy'])->middleware('auth');

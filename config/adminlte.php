@@ -63,8 +63,8 @@ return [
     |
     */
 
-    'logo' => '<b>FAQ</b> Jurisoft',
-    'logo_img' => 'img/1.png',
+    'logo' => '<b>Camax</b> Tech',
+    'logo_img' => 'img/camaxlogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -86,7 +86,7 @@ return [
     'auth_logo' => [
         'enabled' => false,
         'img' => [
-            'path' => 'img/1.png',
+            'path' => 'img/camaxlogo.png',
             'alt' => 'Auth Logo',
             'class' => '',
             'width' => 50,
@@ -109,7 +109,7 @@ return [
     'preloader' => [
         'enabled' => true,
         'img' => [
-            'path' => 'img/1.png',
+            'path' => 'img/camaxlogo.png',
             'alt' => 'Jurisoft',
             'effect' => 'animation__shake',
             'width' => 60,
@@ -312,7 +312,13 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Gerenciar perguntas',
+            'text'        => 'Gerenciar Clientes',
+            'url'         => 'clientes',
+            'icon'        => 'far fa-fw fa-file',
+            'label_color' => 'success',
+        ],
+        [
+            'text'        => 'Gerenciar Perguntas',
             'url'         => 'faqs',
             'icon'        => 'far fa-fw fa-file',
             'label_color' => 'success',
