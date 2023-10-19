@@ -59,6 +59,7 @@
                 <nav class="navbar navbar-dark navbar-expand-lg py-0">
                     <a href="index.html" class="navbar-brand">
                         <h1 class="text-white fw-bold d-block">Camax<span class="text-secondary">Tech</span> </h1>
+                        {{-- <img src="{{ asset('/img/camaxlogo2.png') }}" width="20%" alt=""> --}}
                     </a>
                     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
