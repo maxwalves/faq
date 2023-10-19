@@ -380,10 +380,10 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="#" class="h3 text-secondary">Links</a>
                         <div class="mt-4 d-flex flex-column short-link">
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Sobre nós</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contato</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos serviços</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos projetos</a>
+                            <a href="/sobre" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Sobre nós</a>
+                            <a href="/contato" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contato</a>
+                            <a href="/servicos" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos serviços</a>
+                            <a href="/projetos" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos projetos</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">

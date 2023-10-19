@@ -159,7 +159,7 @@
                     <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                         <h5 class="text-primary">Sobre nós</h5>
                         <h1 class="mb-4">Camax Tech - Soluções inovadoras de alta tecnologia</h1>
-                        <p>Bem-vindo à Camax Tech - sua parceira em inovação e tecnologia. Localizada em Curitiba, Paraná, Brasil, somos uma equipe de programadores apaixonados por criar soluções inovadoras de alta tecnologia. Nosso foco principal é o desenvolvimento de sites, softwares e estratégias de marketing que impulsionam o sucesso dos nossos clientes.</p>
+                        <p>Bem-vindo à Camax Tech - sua parceira em inovação e tecnologia. Localizada em Curitiba, Paraná, Brasil, somos uma equipe focada em criar soluções inovadoras de alta tecnologia. Nosso foco principal é o desenvolvimento de sites, softwares e estratégias de marketing que impulsionam o sucesso dos nossos clientes.</p>
                         <p>Nossa missão é transformar ideias em realidade digital. Com anos de experiência e expertise em programação, estamos prontos para atender às necessidades da sua empresa. Seja você uma startup em busca de um site de grande escala, uma empresa em crescimento necessitando de soluções de software personalizadas, ou um negócio estabelecido procurando melhorar sua presença online, a Camax Tech está aqui para ajudar.</p>
                         <p>O que nos diferencia é a nossa paixão pela inovação. Estamos constantemente atualizados com as mais recentes tendências tecnológicas e estratégias de marketing, garantindo que nossos clientes estejam à frente da concorrência.</p>
                         <p>Na Camax Tech, acreditamos que o sucesso do cliente é o nosso sucesso. Trabalhamos em estreita colaboração com você para entender suas necessidades específicas e personalizar soluções que atendam aos seus objetivos. Sinta-se à vontade para entrar em contato conosco e começar a jornada para a excelência tecnológica e o crescimento digital.</p>
@@ -182,17 +182,15 @@
                         <div class="rounded team-item text-center">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="img/max.png" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
-                                    <h4 class="">Nome do Membro 1</h4>
-                                    <p class="m-0">Cargo</p>
+                                    <h4 class="">Maximiliano William Alves</h4>
+                                    <p class="m-0">Especialista em Engenharia de Software</p>
                                 </div>
                                 <div class="team-icon d-flex justify-content-center pb-4">
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href="https://instagram.com/maxw.dev?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href="https://www.linkedin.com/in/maxwalves/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -201,17 +199,15 @@
                         <div class="rounded team-item text-center">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="img/carla.png" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
-                                    <h4 class="">Nome do Membro 2</h4>
-                                    <p class="m-0">Cargo</p>
+                                    <h4 class="">Carla Maria Teodoro</h4>
+                                    <p class="m-0">Especialista em Marketing</p>
                                 </div>
                                 <div class="team-icon d-flex justify-content-center pb-4">
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href="https://instagram.com/caa_maria?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href="https://www.linkedin.com/in/carla-maria-teodoro/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -231,20 +227,15 @@
                             <h1 class="text-white fw-bold d-block">Camax<span class="text-secondary">Tech</span> </h1>
                         </a>
                         <p class="mt-4 text-light">Empresa especializada em desenvolvimento de sites, softwares e marketing.</p>
-                        <div class="d-flex hightech-link">
-                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
-                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
-                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
-                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
-                        </div>
+
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <a href="#" class="h3 text-secondary">Links</a>
                         <div class="mt-4 d-flex flex-column short-link">
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Sobre nós</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contato</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos serviços</a>
-                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos projetos</a>
+                            <a href="/sobre" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Sobre nós</a>
+                            <a href="/contato" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contato</a>
+                            <a href="/servicos" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos serviços</a>
+                            <a href="/projetos" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos projetos</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
