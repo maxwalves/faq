@@ -318,6 +318,12 @@ return [
             'label_color' => 'success',
         ],
         [
+            'text'        => 'Mensagens',
+            'url'         => 'mensagens',
+            'icon'        => 'far fa-fw fa-file',
+            'label_color' => 'success',
+        ],
+        [
             'text'        => 'Gerenciar Perguntas',
             'url'         => 'faqs',
             'icon'        => 'far fa-fw fa-file',

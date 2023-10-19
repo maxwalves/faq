@@ -336,23 +336,30 @@
                     </div>
                     <div class="row g-5">
                         <div class="col-lg-12 wow fadeIn" data-wow-delay=".5s">
-                            <div class="p-5 rounded contact-form">
-                                <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="Seu Nome">
+                            <form action="{{ url("/mensagensInicial") }}" method="POST">
+                                @csrf
+                                <div class="p-5 rounded contact-form">
+                                    <div class="mb-4">
+                                        <input type="text" class="form-control border-0 py-3" placeholder="Seu Nome"
+                                        name="nome" id="nome" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <input type="email" class="form-control border-0 py-3" placeholder="Seu e-mail"
+                                        name="email" id="email" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <input type="text" class="form-control border-0 py-3" placeholder="Projeto"
+                                        name="projeto" id="projeto" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Mensagem"
+                                        name="conteudo" id="conteudo" required></textarea>
+                                    </div>
+                                    <div class="text-start">
+                                        <button class="btn bg-primary text-white py-3 px-5" type="submit">Enviar mensagem</button>
+                                    </div>
                                 </div>
-                                <div class="mb-4">
-                                    <input type="email" class="form-control border-0 py-3" placeholder="Seu e-mail">
-                                </div>
-                                <div class="mb-4">
-                                    <input type="text" class="form-control border-0 py-3" placeholder="Projeto">
-                                </div>
-                                <div class="mb-4">
-                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Mensagem"></textarea>
-                                </div>
-                                <div class="text-start">
-                                    <button class="btn bg-primary text-white py-3 px-5" type="button">Enviar mensagem</button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -420,9 +427,22 @@
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        <script>
+            $(document).ready( function () {
+                if("{{ session('success') }}" == "Mensagem enviada com sucesso."){
+                    Swal.fire(
+                        'Sucesso!',
+                        "{{ session('success') }}",
+                        'success'
+                    )
+                }
+            } );
+        </script>
     </body>
 
 </html>
