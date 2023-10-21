@@ -40,40 +40,12 @@
     </div>
     <!-- Spinner End -->
 
-
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <img src="{{ asset('img/logo.png') }}" alt="Camax Cabine" width="100px">
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">Sobre</a>
-                <a href="service.html" class="nav-item nav-link">Serviços</a>
-                <a href="contact.html" class="nav-item nav-link">Contato</a>
-            </div>
-            <a href="" class="btn btn-primary rounded-0 py-2 px-lg-4 d-none d-lg-block">Quero um orçamento!<i class="fa fa-arrow-right ms-3"></i></a>
-        </div>
-    </nav>
-    <!-- Navbar End -->
-
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/1.jpg" alt="Image">
-                    <div class="carousel-caption d-flex align-items-center justify-content-center text-start">
-                        <div class="mx-sm-5 px-5" style="max-width: 900px;">
-                            <h1 class="display-2 text-white text-uppercase mb-4 animated slideInDown">FOTOGRAFIAS INSTANTÂNEAS, LEMBRANÇAS DURADOURAS!</h1>
-                            <h4 class="text-white text-uppercase mb-4 animated slideInDown"><i class="fas fa-arrow-right text-primary me-3"></i>Cabine e Totem Fotográfico</h4>
-                            <h4 class="text-white text-uppercase mb-4 animated slideInDown"><i class="fa fa-map-marker-alt text-primary me-3"></i>Curitiba e região</h4>
-                        </div>
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>contato@camaxtech.com</small>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -144,19 +116,24 @@
     </div>
     <!-- About End -->
 
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block bg-secondary text-primary py-1 px-4">Services</p>
-                <h1 class="text-uppercase">What We Provide</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item position-relative overflow-hidden bg-secondary d-flex h-100 p-5 ps-0">
-                        <div class="bg-dark d-flex flex-shrink-0 align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                            <img class="img-fluid" src="img/haircut.png" alt="">
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold d-block">Camax<span class="text-secondary">Tech</span> </h1>
+                        {{-- <img src="{{ asset('/img/camaxlogo2.png') }}" width="20%" alt=""> --}}
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="/" class="nav-item nav-link active text-secondary">Home</a>
+                            <a href="/sobre" class="nav-item nav-link">Sobre</a>
+                            <a href="/servicos" class="nav-item nav-link">Serviços</a>
+                            <a href="/projetos" class="nav-item nav-link">Projetos</a>
+                            <a href="/contato" class="nav-item nav-link">Contato</a>
                         </div>
                         <div class="ps-4">
                             <h3 class="text-uppercase mb-3">Haircut</h3>
@@ -489,13 +466,271 @@
         <div class="container">
             <div class="copyright">
                 <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">1</h1>
+                            <h5 class="text-white mt-1">Forneça informações sobre a sua empresa</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">2</h1>
+                            <h5 class="text-white mt-1">Orçamento e aprovação</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">3</h1>
+                            <h5 class="text-white mt-1">Desenvolvimmento do site e software</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">4</h1>
+                            <h5 class="text-white mt-1">Você feliz com sua empresa na internet</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 my-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="h-100 position-relative">
+                            <img src="img/about-1.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                                <img src="img/about-2.jpg" class="img-fluid w-100 rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                        <h5 class="text-primary">Sobre nós</h5>
+                        <h1 class="mb-4">Somos uma empresa de desenvolvimento de software que possui o marketing como principal aliado</h1>
+                        <p>Nossa missão é desenvolver o seu site e software com a melhor interface e te ensinar como utilizá-lo para se posicionar na internet e captar mais clientes, ganhando mais dinheiro para o seu negócio.</p>
+                        <p class="mb-4">Nosso time é formado pelo Max, especialista em Engenharia de Software e pela Carla, especialista em Marketing. Estamos prontos para te atender!</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">Mais detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Nossas especialidades</h5>
+                    <h1>Serviços pensados especialmente para o seu negócio</h1>
+                </div>
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-code fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Criação de sites</h4>
+                                    <p class="mb-4">Mostramos a sua empresa para o mundo com um super site</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Leia mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-file-code fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Desenvolvimento de Software</h4>
+                                    <p class="mb-4">Podemos desenvolver uma aplicação para a sua empresa decolar e conseguir administrar os negócios com mais facilidade.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Leia mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Criação de logotipo</h4>
+                                    <p class="mb-4">Criamos a sua marca e identidade visual para você se destacar da concorrência</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Leia mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+
+        <!-- Project Start -->
+        <div class="container-fluid project py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Nosso Portfólio</h5>
+                    <h1>Nossos projetos concluídos recentemente</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Web design</h4>
+                                        <p class="m-0 text-white">Web Analysis</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Cyber Security</h4>
+                                        <p class="m-0 text-white">Cyber Security Core</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Mobile Info</h4>
+                                        <p class="m-0 text-white">Upcomming Phone</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Entre em contato</h5>
+                    <h1 class="mb-3">Estamos prontos para te atender</h1>
+                    <p class="mb-2">Iremos prepara uma proposta e orçamento especiais para a sua empresa</p>
+                </div>
+                <div class="contact-detail position-relative p-5">
+                    <div class="row g-5 mb-5 justify-content-center">
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                                    <i class="fa fa-phone text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Entre em contato</h4>
+                                    <a class="h5" href="tel:(41) 99642-7202" target="_blank">(41) 99642-7202</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                                    <i class="fa fa-envelope text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">E-mail</h4>
+                                    <a class="h5" href="mailto:contato@camaxtech.com" target="_blank">contato@camaxtech.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-12 wow fadeIn" data-wow-delay=".5s">
+                            <form action="{{ url("/mensagensInicial") }}" method="POST">
+                                @csrf
+                                <div class="p-5 rounded contact-form">
+                                    <div class="mb-4">
+                                        <input type="text" class="form-control border-0 py-3" placeholder="Seu Nome"
+                                        name="nome" id="nome" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <input type="email" class="form-control border-0 py-3" placeholder="Seu e-mail"
+                                        name="email" id="email" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <input type="text" class="form-control border-0 py-3" placeholder="Projeto"
+                                        name="projeto" id="projeto" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Mensagem"
+                                        name="conteudo" id="conteudo" required></textarea>
+                                    </div>
+                                    <div class="text-start">
+                                        <button class="btn bg-primary text-white py-3 px-5" type="submit">Enviar mensagem</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <h1 class="text-white fw-bold d-block">Camax<span class="text-secondary">Tech</span> </h1>
+                        </a>
+                        <p class="mt-4 text-light">Empresa especializada em desenvolvimento de sites, softwares e marketing.</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Links</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="/sobre" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Sobre nós</a>
+                            <a href="/contato" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contato</a>
+                            <a href="/servicos" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos serviços</a>
+                            <a href="/projetos" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nossos projetos</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Entre em contato</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> (41) 99642-7202</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> contato@camaxtech.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary">Desenvolvido por Camax Tech</a></span>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                        <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        <span class="text-light">Desenhado por <a href="https://htmlcodex.com" class="text-secondary">HTML Codex</a> Distribuído por <a href="https://themewagon.com">ThemeWagon</a></span>
                     </div>
                 </div>
             </div>
@@ -507,17 +742,30 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
+        <script>
+            $(document).ready( function () {
+                if("{{ session('success') }}" == "Mensagem enviada com sucesso."){
+                    Swal.fire(
+                        'Sucesso!',
+                        "{{ session('success') }}",
+                        'success'
+                    )
+                }
+            } );
+        </script>
+    </body>
 
 </html>
